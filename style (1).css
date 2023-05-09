@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    background-color: lightblue;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player_container{
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_button{
+    background-color: cadetblue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header_button:hover, .actionsButton:hover{
+    background-color: green;
+    transition: 0.4s;
+}
+
+.actionsButton{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
